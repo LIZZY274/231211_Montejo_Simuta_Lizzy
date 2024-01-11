@@ -1,0 +1,40 @@
+.Container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.Container {
+    background-color: red;
+    width: 250px; 
+    height: 250px;
+    border-radius: 20px;  
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.Square {
+    background-color: blue;
+    width: 210px; 
+    height: 210px; 
+    border-radius: 20px; 
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    border-radius: 30px;
+
+    
+}
+
+.Circle {
+    background-color: green;
+    width: 190px; 
+    height: 190px; 
+    border-radius: 50%; 
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
